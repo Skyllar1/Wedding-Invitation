@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+
+/* font-family: "Dancing Script", cursive; */
+
+
+/* font-family: "Kalam", cursive; */
+
+body {
+    height: auto;
+}
+
+.romance-card {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.romance-card img {
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 30px grey;
+    object-fit: contain;
+}
+
+.letter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 10%; */
+    margin-right: 50px;
+    padding: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: antiquewhite;
+}
+
+.romance-card .romance-text p {
+    font-size: 30px;
+    font-family: "Dancing Script", cursive, Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.Catagory .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+.profile1 {
+    box-shadow: 0px 1px 6px gray;
+    vertical-align: top;
+}
+
+.profile1 .profile-pic .photo {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile1 .profile-pic .photo {
+    height: 1280px;
+}
+
+h3 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Dancing Script", cursive, Arial, Helvetica, sans-serif;
+}
+
+.profile2 .profile-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.profile2 .profile-pic .photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.profile2 .info h3 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Dancing Script", cursive, Arial, Helvetica, sans-serif;
+}
+
+.profile2 .info h5 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+.profile2 .info p {
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 50px;
+    margin-left: 20px;
+    font-family: "Kalam", cursive;
+}

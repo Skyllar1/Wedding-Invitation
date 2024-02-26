@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/wedding.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<!-- #FA8072; -->
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            &hearts;Na In-Woo & Park Min Young <br> are getting married! &hearts;
+        </a>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lovestory.html">Love-Story</a></li>
+            <li><a href="detail.html">Detail</a></li>
+            <li><a href="form.html" class="active">Form</a></li>
+        </ul>
+    </header>
+
+    <div class="video">
+        <video class="play" width="1000px" height="500" autoplay loop>
+            <source class="" src="../video.mp4" type="video/mp4">
+          </video>
+    </div>
+
+    <div class="text" id="text">
+        <h2>Do yo want to participate in quiz Q&A?</h2>
+        <h2 class="wish">Hopefully you enjoyed our wedding and have a nice day.</h2>
+    </div>
+    <div class="section">
+        <button type="button" class="quizbtn" id="quizbtn">Let's go</button>
+        <button type="button" class="quizbtn1" id="quizbtn1">Thanks</button>
+    </div>
+
+
+    <div class="form" id="form">
+        <form method="post" id="form1">
+            <div>
+                <span>1. How did the bride and groom meet?</span><br>
+                <div id="quiz">
+                    <input class="a1" type="radio" value="A" name="a1">Company
+                    <input class="a1" type="radio" value="B" name="a1">University
+                    <input class="a1" type="radio" value="C" name="a1">Restaurant
+                </div>
+            </div>
+            <div>
+                <span>2. How long have they been together?
+                </span><br>
+                <div id="quiz">
+                    <input class="a2" type="radio" value="A" name="a2">4
+                    <input class="a2" type="radio" value="B" name="a2">6
+                    <input class="a2" type="radio" value="C" name="a2">2
+                </div>
+            </div>
+            <div>
+                <span>3. Where did the proposal take place?</span><br>
+                <div id="quiz">
+                    <input class="a3" type="radio" value="A" name="a3">Paris
+                    <input class="a3" type="radio" value="B" name="a3">Osaka
+                    <input class="a3" type="radio" value="C" name="a3">Seoul
+                </div>
+            </div>
+            <div>
+                <span>4. What is the theme or color scheme of the wedding?</span><br>
+                <div id="quiz">
+                    <input class="a4" type="radio" value="A" name="a4">Antiquewhite
+                    <input class="a4" type="radio" value="B" name="a4">Silvermist
+                    <input class="a4" type="radio" value="C" name="a4">Creamy
+                </div>
+            </div>
+            <div>
+                <span>5. What is the couple's favorite vacation spot?</span><br>
+                <div id="quiz">
+                    <input class="a5" type="radio" value="A" name="a5">Hawaii
+                    <input class="a5" type="radio" value="B" name="a5">Jeju Island
+                    <input class="a5" type="radio" value="C" name="a5">Berli
+                </div>
+            </div>
+            <div>
+                <span>6. Where are the bride and groom going for their honeymoon?</span><br>
+                <div id="quiz">
+                    <input class="a6" type="radio" value="A" name="a6">Switzerland
+                    <input class="a6" type="radio" value="B" name="a6">United Arab Emirates
+                    <input class="a6" type="radio" value="C" name="a6">Italy
+                </div>
+            </div>
+            <div>
+                <span>7. What are the couple's hobbies or interests?</span><br>
+                <div id="quiz">
+                    <input class="a7" type="radio" value="A" name="a7">Taekwondo
+                    <input class="a7" type="radio" value="B" name="a7">Boxing
+                    <input class="a7" type="radio" value="C" name="a7">Shooting
+                </div>
+            </div>
+            <div>
+                <span>8. What is the style of the bride's wedding dress?</span><br>
+                <div id="quiz">
+                    <input class="a8" type="radio" value="A" name="a8">White
+                    <input class="a8" type="radio" value="B" name="a8">Red
+                    <input class="a8" type="radio" value="C" name="a8">Light Blue
+                </div>
+            </div>
+            <div>
+                <span>9. What are the couple's favorite food?</span><br>
+                <div id="quiz">
+                    <input class="a9" type="radio" value="A" name="a9">Kimchi
+                    <input class="a9" type="radio" value="B" name="a9">Noodle
+                    <input class="a9" type="radio" value="C" name="a9">Pasta
+                </div>
+            </div>
+            <div>
+                <span>10. What's their favorite thing to do together?</span><br>
+                <div id="quiz">
+                    <input class="a10" type="radio" value="A" name="a10">Cooking
+                    <input class="a10" type="radio" value="B" name="a10">Vacation
+                    <input class="a10" type="radio" value="C" name="a10">Movie Date
+                </div>
+            </div>
+            <div class="btngp">
+                <button type="button" id="submitBtn" class="btn2">Submit</button>
+                <button type="reset" class="btn3">Clear</button>
+            </div>
+        </form>
+        <div>
+            <span id="result"></span>
+        </div>
+    </div>
+
+    <section class="Footer">
+        <div class="contact">
+            <div class="left-section">
+                <div class="social">
+                    <a href="https://www.facebook.com"><img src="../facebook.svg"></a>
+                    <p>Facebook</p>
+                </div>
+                <div class="social">
+                    <a href="https://instagram.com"><img src="../instagram.svg"></a>
+                    <p>Instagram</p>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com"><img src="../icons8-twitterx.svg"></a>
+                    <p>X</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.viber.com"><img src="../viber.svg"></a>
+                    <p>Viber</p>
+                </div>
+                <div class="social">
+                    <a href="https://web.telegram.org/a/"><img src="../icons8-telegram-48.png"></a>
+                    <p>Telegram</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="description">
+                <p>&#169 2023 all rights reserved</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="../js/wedding.js"></script>
+<script src="../js/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $("#form").hide();
+        $("#quizbtn").click(function() {
+            $(".text").hide();
+            $(".section").hide();
+            $("#form").show("1000", function() {
+                $("#form1").show("1000");
+            });
+        })
+
+        $(".wish").hide();
+        $("#quizbtn1").click(function() {
+            $(".text").hide();
+            $(".section").hide();
+            $(".text").show();
+            $(".text").html("<h1 style='text-align: center;'>Thanks for attending our wedding and have a nice day.</h1>");
+            $(".text").css("color", "#FA8072")
+        })
+
+        $("#submitBtn").click(function() {
+            $("#form").hide();
+            $(".text").show();
+            $(".text").html("<h1 style='text-align: center;'>Thanks for taking quizzes and have a nice day.</h1>");
+            $(".text").css("color", "#FA8072")
+        })
+    })
+</script>
+
+
+
+</html>
